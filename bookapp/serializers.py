@@ -5,4 +5,4 @@ class BookSerialization(ModelSerializer):
 
     class Meta:
         model = Book
-        fields = '_all_'
+        fields = '__all__'
